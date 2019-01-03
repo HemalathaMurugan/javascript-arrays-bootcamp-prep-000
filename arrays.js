@@ -7,11 +7,10 @@ function addElementToBeginningOfArray(array,element){
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
    return array;
-=======
-function destructivelyAddElementToBeginningOfArray(array,element){
-  return [element,...array];
+
+
   
->>>>>>> 8840658a3f4f059a9b99e5dc232364ae89941546
+
 }
 function addElementToEndOfArray(array,element){
   return [...array,element];
