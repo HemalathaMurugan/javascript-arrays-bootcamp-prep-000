@@ -54,7 +54,7 @@ return array.slice[1];
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
->>>>>>> 8840658a3f4f059a9b99e5dc232364ae89941546
+
     }
 function removeElementFromEndOfArray(array) {
   var array1=array.slice(0,array.length-1);
